@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planet At Tip</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planet at tip</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hello</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1 class="display-2 fw-bold text-light">Let's embark on a Cosmic <span class="highlight"><br />X<span
+              class="auto-typed"></span></span></h1>
+        <p class="lead text-light">Welcome to Planet At Tip, where NASA's API unveils celestial wonders. Discover
+          breathtaking images and cutting-edge astronomical data, embarking on a cosmic journey that transcends the
+          boundaries of earthly imagination.</p>
+        <div class="button-container">
+          <a href="#apod">
+            <button type="button" class="btn btn-primary btn-lg">Explore</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      var typed = new Typed(".auto-typed", {
+        strings: ["pedition.", "ploration.", "enostellar.", "cursion."],
+        typeSpeed: 150,
+        backSpeed: 70,
+        loop: true
+      });
+    });
+  </script>
 </body>
+
 </html>
